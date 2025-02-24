@@ -1,0 +1,38 @@
+---
+format: dashboard
+---
+```{r echo=FALSE}
+library(leaflet)
+
+data <- readr::read_csv("india.csv")
+
+icons <- awesomeIcons(
+  icon = 'ios-checkmark',
+  iconColor = '#eee',
+  library = 'ion',
+  markerColor = 'gray'
+)
+
+labels <- as.list(paste(
+      "<strong><u> State: </strong></u>", data$state, "<br>",
+      "<strong> Area of work: </strong>", data$thematic_areas, "<br>"
+    ))
+
+leaflet(data) |>
+  addProviderTiles(providers$Esri.WorldStreetMap) |>
+  #addTiles() |>  # Add default OpenStreetMap map tiles
+  setView(78.9629,20.5937, zoom = 5.3) |>
+  addAwesomeMarkers(lng=data$lng, lat=data$lat, icon=icons, 
+                    label=lapply(labels, htmltools::HTML),
+                    labelOptions = labelOptions(direction = "top",
+      style = list(
+        "color" = "black",
+        "box-shadow" = "3px 3px rgba(0,0,0,0.25)",
+        "font-size" = "14px",
+        "border-color" = "#ddd"
+      ))
+                      )
+
+#https://stackoverflow.com/questions/59789918/how-to-get-the-colours-i-want-with-leaflet-awesomemarkers
+
+```
