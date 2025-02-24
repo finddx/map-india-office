@@ -1,4 +1,22 @@
-﻿city,lat,lng,description_of_achievements
-New Delhi,28.6448,77.216721,We achieved this and that
-Bihar,25.477585,85.709091,We shared TB tests here and there
-Jaipur,26.907524,75.739639,We received funding here and there
+state,thematic_areas,lat,lng
+Telangana,TB,17.123184,79.208824
+Andhra Pradesh,TB,15.9129,79.74
+Odisha,TB,20.94092,84.803467
+Himachal Pradesh,TB,32.084206,77.571167
+Tamil Nadu,TB,11.127123,78.656891
+Delhi,TB <br> Several of our projects focused on <i>Health Systems Strengthening</i> operate pan-India,28.7041,77.1025
+Uttar Pradesh,TB,28.207609,79.82666
+Gujarat,TB,22.309425,72.13623
+Rajasthan,TB,27.391277,73.432617
+Uttarakhand,TB,30.0668,79.0193
+Maharashtra,TB,19.601194,75.552979
+Assam,TB,26.244156,92.537842
+Chandigarh,"TB, AMR",30.741482,76.768066
+West Bengal,"TB, AMR",22.978624,87.747803
+Madhya Pradesh,"TB, AMR",23.473324,77.947998
+Chhattisgarh,"TB, AMR",21.295132,81.828232
+Bihar,"TB, HSS",25.9644,85.2722
+Karnataka ,"TB, Women's Health",15.317277,75.71389
+Haryana,"TB, Women's Health",29.065773,76.040497
+Punjab,"TB, Hep-C",31.1471,75.3412
+Meghalaya,Hep-C,25.467,91.3662
