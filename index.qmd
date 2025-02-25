@@ -10,7 +10,7 @@ icons <- awesomeIcons(
   icon = 'ios-checkmark',
   iconColor = '#eee',
   library = 'ion',
-  markerColor = 'gray'
+  markerColor = 'darkpurple'
 )
 
 labels <- as.list(paste(
