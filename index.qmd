@@ -19,7 +19,7 @@ labels <- as.list(paste(
     ))
 
 leaflet(data) |>
-  addProviderTiles(providers$Esri.WorldStreetMap) |>
+  addProviderTiles(providers$OpenStreetMap.Mapnik) |>
   #addTiles() |>  # Add default OpenStreetMap map tiles
   setView(78.9629,20.5937, zoom = 5.3) |>
   addAwesomeMarkers(lng=data$lng, lat=data$lat, icon=icons, 
