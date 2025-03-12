@@ -1,3 +1,9 @@
+[[redirects]]
+  from = "/*"
+  to = "https://relaxed-salamander-ff6e5b.netlify.app/"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
 [[headers]]
   for = "/*" # you can configure the correct paths here
   [headers.values]
