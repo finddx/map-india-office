@@ -1,6 +1,6 @@
 [[redirects]]
-  from = "/*"
-  to = "https://relaxed-salamander-ff6e5b.netlify.app/"
+  from = "/flamap"
+  to = "https://relaxed-salamander-ff6e5b.netlify.app/flamap"
   status = 200
   force = true
   headers = {X-From = "Netlify"}
