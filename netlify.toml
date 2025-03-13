@@ -1,9 +1,3 @@
-[[redirects]]
-  to = "https://finddxstaging.wpengine.com/wp-content/themes/find/assets/indiamap/*"
-  from = "https://relaxed-salamander-ff6e5b.netlify.app/flamap/*"
-  status = 200
-  force = true
-  headers = {X-From = "Netlify"}
 [[headers]]
   for = "/*" # you can configure the correct paths here
   [headers.values]
