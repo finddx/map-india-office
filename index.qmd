@@ -3,11 +3,11 @@ format: html
 ---
 ```{=html}
 <div id='map-container'></div>
-<link href="flamap/map.css" rel="stylesheet">
-<script src="flamap/raphael.min.js"></script>
-<script src="flamap/settings.js"></script>
-<script src="flamap/paths.js"></script>
-<script src="flamap/map.js"></script>
+<link href="https://finddxstaging.wpengine.com/wp-content/themes/find/assets/indiamap/map.css" rel="stylesheet">
+<script src="https://finddxstaging.wpengine.com/wp-content/themes/find/assets/indiamap/raphael.min.js"></script>
+<script src="https://finddxstaging.wpengine.com/wp-content/themes/find/assets/indiamap/settings.js"></script>
+<script src="https://finddxstaging.wpengine.com/wp-content/themes/find/assets/indiamap/paths.js"></script>
+<script src="https://finddxstaging.wpengine.com/wp-content/themes/find/assets/indiamap/map.js"></script>
 <script>
   var map = new FlaMap(map_cfg);
   map.drawOnDomReady('map-container');
